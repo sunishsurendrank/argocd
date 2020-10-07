@@ -1,10 +1,10 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: demoapp
+  name: demo
   namespace: argocd
 spec:
-  project: demoapp
+  project: demo
   source:
     repoURL: https://github.com/sunishsurendrank/argocd.git 
     targetRevision: HEAD
