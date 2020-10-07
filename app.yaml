@@ -11,4 +11,4 @@ spec:
     path: demoapp
   destination:
     server: https://kubernetes.default.svc
-    namespace: guestbook
+    namespace: default
